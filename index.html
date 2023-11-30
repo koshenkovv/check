@@ -33,7 +33,7 @@
                     </p>
                 </div>
                 <div class="img_arch">
-                    <img src="./assets/images/posters_low/petr.jpg" alt="">
+                    <img onclick="showFull(this.src)" src="./assets/images/posters_low/petr.jpg" alt="">
                 </div>
             </div>
 
@@ -44,7 +44,7 @@
                     </p>
                 </div>
                 <div class="img_arch">
-                    <img src="./assets/images/posters_low/kto_skazal.jpg" alt="">
+                    <img onclick="showFull(this.src)" src="./assets/images/posters_low/kto_skazal.jpg" alt="">
                 </div>
             </div>
 
@@ -55,7 +55,7 @@
                     </p>
                 </div>
                 <div class="img_arch">
-                    <img loading="lazy" src="./assets/images/posters_low/wanna_cry.jpg" alt="">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/posters_low/wanna_cry.jpg" alt="">
                 </div>
             </div>
 
@@ -66,7 +66,7 @@
                     </p>
                 </div>
                 <div class="img_arch">
-                    <img loading="lazy" src="./assets/images/posters_low/achtung.jpg" alt="">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/posters_low/achtung.jpg" alt="">
                 </div>
             </div>
             
@@ -77,7 +77,7 @@
                     </p>
                 </div>
                 <div class="img_arch">
-                    <img loading="lazy" src="./assets/images/posters_low/gogogo.jpg" alt="">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/posters_low/gogogo.jpg" alt="">
                 </div>
             </div>
 
@@ -88,7 +88,7 @@
                     </p>
                 </div>
                 <div class="img_arch">
-                    <img loading="lazy" src="./assets/images/posters_low/comeback.jpg" alt="">
+                    <img  onclick="showFull(this.src)" loading="lazy" src="./assets/images/posters_low/comeback.jpg" alt="">
                 </div>
             </div>
 
@@ -99,7 +99,7 @@
                     </p>
                 </div>
                 <div class="img_arch">
-                    <img loading="lazy" src="./assets/images/posters_low/kuz_mom.jpg" alt="">
+                    <img onclick="showFull(this.src)" loading="lazy" src="./assets/images/posters_low/kuz_mom.jpg" alt="">
                 </div>
             </div>
 
@@ -767,7 +767,12 @@
             </div>
 
         </div>
-    
+
+        <div class="preview" onclick="hideFull()">
+            <div>
+                <img loading="lazy" id="fullImg" src="./assets/images/posters_full/chee-z-screen.jpg" alt="">
+            </div>
+        </div>
 </body>
 <script src="./assets/scripts/project_script.js"></script>
 </html>
