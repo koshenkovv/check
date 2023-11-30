@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Bloggersans;
+    src: url(../fonts/Bloggersans.ttf);
+}
+
+@font-face {
+    font-family: Bloggersans;
+    src: url(../fonts/Bloggersansmedium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: Alegreyasans;
+    src: url(../fonts/Alegreyasansmedium.ttf);
+}
+
+@font-face {
+    font-family: Antarctic;
+    src: url(../fonts/Antarctic.otf);
+}
+
+
+
+
+
+
+
+
+section {
+    padding: 60px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+.head p {
+    font-family: Antarctic;
+    font-size: 85px;
+    margin-left: -150px;
+    color: #8B0018;
+    -webkit-text-stroke: 1px #8B0018; 
+    text-align: center;
+}
+
+.text_block {
+    font-family: Bloggersans;
+}
+
+.text_block h1{
+    font-size: 36px;
+    margin: 25px 0 25px 0;
+}
+
+.text_block p{
+    font-size: 28px;
+}
+
+.text_block h2 {
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.space {
+    height: 150px;
+}
