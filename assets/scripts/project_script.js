@@ -41,3 +41,14 @@ const el = document.getElementById('scroll-container');
           console.error('Element not found with ID:', elementId);
       }
   }
+
+function showFull(src) {
+  var fullImg = document.getElementById('fullImg').src = src;
+  var preview = document.getElementsByClassName('preview');  
+  preview[0].style.display = 'block';     
+}
+
+function hideFull() {
+  var preview = document.getElementsByClassName('preview');  
+  preview[0].style.display = 'none';     
+}
